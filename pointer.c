@@ -1,9 +1,9 @@
 #include<stdio.h>
 void main()
     {
-     int a;
-     scanf("%d",&a);
-     int *ptr=&a;
+     int n;
+     scanf("%d",&n);
+     int *ptr=&n;
      printf("%p\n",ptr);
      printf("%d\n",*ptr);
     }
