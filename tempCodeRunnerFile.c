@@ -1,9 +1,13 @@
 #include<stdio.h>
 void main()
-    {
-     int a;
-     scanf("%d",&a);
-     int *ptr=&a;
-     printf("%p\n",ptr);
-     printf("%d\n",*ptr);
-    }
+{
+   int number=10;
+   int *num_pointer= &number;
+   char character[ ]="sacra";
+   char *character_pointer= character; 
+   printf("%d\n",number);
+   printf("%p\n",&num_pointer);
+   printf("%s\n",character);
+   printf("%p\n",character_pointer);
+
+}
