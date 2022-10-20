@@ -17,7 +17,7 @@ int main()
     printf("age ?:");  
     scanf("%d",&emp.age);    
 
-    printf("\nEntered detail is:\n");
+    printf("\nEntered detail are:\n");
     printf("Name: %s\n",emp.name);
     printf("Id: %d\n",emp.empId);
     printf("age: %d\n",emp.age);
