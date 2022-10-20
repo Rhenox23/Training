@@ -1,11 +1,11 @@
 #include<stdio.h>
 void main()
 {
-int array[4]={1,2,3,4};
-int *pointer = array;
+char array[4]={'a','b','c','d'};
+char *pointer = array;
 int i;
 for(i=0;i<4;i++){
 printf("%d-",(pointer+i)); 
-printf("%d\n",*(pointer+i)); 
+printf("%c\n",*(pointer+i)); 
 }
 }
