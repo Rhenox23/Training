@@ -4,6 +4,8 @@ void main()
      int n;
      scanf("%d",&n);
      int *ptr=&n;
-     printf("%p\n",ptr);
+     printf("%d\n",ptr);
      printf("%d\n",*ptr);
+     printf("%d\n",n);
+     printf("%d\n",&n);
     }
